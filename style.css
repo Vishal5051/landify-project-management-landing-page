@@ -1,0 +1,487 @@
+* {
+    /* outline: 1px solid red;  */
+    margin: 0;
+
+
+}
+
+body,
+html {
+    overflow-x: hidden;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+    /* Default font for body */
+    /* outline: 30px solid orange; */
+
+}
+
+h1 {
+    font-size: 60px;
+}
+
+h2 {
+
+    font-size: 48px;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+h5 {
+    font-size: 18px;
+
+}
+
+p {
+    font-family: "Inter", sans-serif;
+    /* Use Inter for paragraphs */
+    color: #374151;
+    font-weight: 400;
+    font-size: 18px;
+
+}
+
+header {
+    background-image: url(images/Background.png);
+    background-size: cover;
+    /* height: 100vh; */
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.nav-font-size {
+    font-size: 16px;
+}
+
+
+#hero {
+    min-height: 90vh;
+    display: flex;
+    align-items: center;
+}
+
+.hero_banner {
+    min-height: 50vh;
+    align-items: center;
+
+}
+
+.custom-color {
+    color: #7C3AED;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.custom-btn {
+    background-color: #7C3AED;
+    color: white;
+    font-size: 16px;
+}
+
+.custom-btn:hover {
+    background-color: transparent;
+    border: 1px #7C3AED solid;
+    color: #7C3AED;
+
+}
+
+
+#review {
+    background-color: #D5FAFC;
+
+
+}
+
+.custom-review-h2 {
+    font-size: 48px;
+}
+
+.achivement-custom-size {
+    font-size: 36px;
+}
+
+.custom-client {
+    color: #6B7280;
+}
+
+.custom-position {
+    position: relative;
+    top: -40px;
+    left: 100px;
+    width: 80%;
+}
+
+#projects {
+    background-color: #1DB5BE;
+
+}
+
+.custom_postion {
+    top: 0;
+}
+
+/* p{
+    font-weight: 400;
+    
+     color: #374151;
+} */
+
+.manage-h5 {
+    color: #111827;
+}
+
+.manage-1img {
+    margin-bottom: 100px;
+}
+
+.manage-2img {
+    margin-top: 100px;
+}
+
+footer {
+    font-size: 16px;
+    background-color: #000000;
+}
+
+.footer-p {
+    font-size: 14px;
+    color: #D1D5DB;
+}
+
+@media (min-width: 992px) {
+
+    .custom-m-position {
+        /* position: absolute; */
+        /* overflow:hidden; */
+        top: 110px;
+        right: 10px
+    }
+}
+
+@media (min-width: 992px) {
+
+    .custom-position {
+        position: relative;
+        top: -40px;
+        left: 100px;
+
+        width: 80%;
+    }
+
+    .custom-card {
+        height: 350px;
+        width: 500px;
+    }
+
+    .custom-h2,
+    .custom-review-h2 {
+        font-size: 48px;
+    }
+
+    .manage-p {
+        color: #111827;
+    }
+
+    .manage-container {
+        height: 60vh;
+        /* outline: 2px solid white;  */
+
+    }
+
+    .manage-row {
+        /* height; */
+        outline: 20px solid rgba(12, 137, 225, 0.782);
+    }
+
+    /* Large Screens */
+    .custom-padding-hero {
+        padding-right: 130px;
+    }
+
+    .second-review {
+        margin-top: 150px;
+    }
+
+    .tool-img {
+        width: 544px;
+    }
+
+}
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 36px;
+        /* Adjust heading size */
+    }
+
+    h3 {
+        font-size: 24px;
+    }
+
+
+    .custom-h2 {
+        font-size: 30px;
+        /* Adjust h2 size */
+    }
+
+    .custom-review-h2 {
+        font-size: 30px;
+
+    }
+
+    .custom-position {
+        position: relative;
+        top: -60px;
+        left: 30px;
+
+        width: 80%;
+    }
+
+    .second-review {
+        margin-top: 25px;
+    }
+
+    .feature-head-p {
+        line-height: 28px;
+        font-size: 18px;
+        /* Adjust paragraph size */
+    }
+
+    .achivement-custom-size {
+        font-size: 24px;
+    }
+
+    .achivement-custom-catg {
+        font-size: 14px;
+    }
+
+    .tool-img {
+        min-width: 335px;
+    }
+
+    .manage-1img {
+        margin-bottom: 0px;
+    }
+
+    .manage-2img {
+        margin-top: 0px;
+    }
+
+
+
+
+    feactures-p {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 576px) {
+    .custom-m-position {
+        /* position: absolute; */
+        top: 25px;
+        /* right:10px */
+    }
+}
+
+@media (min-width:768px) and ((max-width: 992px)) {
+
+    /* Large Screens */
+    h1 {
+        font-size: 36px;
+    }
+
+    h3 {
+        font-size: 24px;
+    }
+
+    .custom-position {
+        position: relative;
+        top: -60px;
+        left: 30px;
+
+        width: 80%;
+    }
+
+    .custom-review-h3 {
+        font-size: 30px;
+
+    }
+
+    p {
+        font-size: 16px;
+    }
+
+    .custom-h2,
+    .custom-review-h2 {
+        font-size: 36px;
+    }
+
+    .second-review {
+        margin-top: 25px;
+    }
+
+    .tool-img {
+        min-width: 328px;
+    }
+    
+}
+
+
+
+
+
+.navbar-nav .nav-link {
+    position: relative;
+    transition: color 0.3s ease;
+    overflow: hidden;
+}
+
+.navbar-nav .nav-link::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    left: -100%;
+    background-color: #7C3AED;
+    transition: left 0.3s ease;
+}
+
+
+
+.navbar-nav .nav-link:hover::after {
+    left: 0;
+}
+
+/* Footer Navigation Links Hover Effects */
+footer .navbar-nav .nav-link {
+    color: rgba(255, 255, 255, 0.7);
+    transition: color 0.3s ease, transform 0.2s ease;
+}
+
+footer .navbar-nav .nav-link:hover {
+    color: white;
+    transform: translateX(5px);
+}
+
+.rounded {
+    transition: transform .5s;
+}
+
+.rounded:hover {
+    transform: translateY(-10px);
+
+}
+
+.tool-icon {
+    transition: transform .5s ease;
+}
+.tool-icon:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+/* Subtle Button Hover Enhancement */
+.custom-btn {
+    transition: all 0.3s ease;
+}
+
+.custom-btn:hover {
+    letter-spacing: 0px;
+    transform: scale(1.1);
+    box-shadow: 0 5px 15px rgba(124, 58, 237, 0.3);
+}
+.figure{
+    transition: transform .5s;
+}
+.figure:hover{
+    transform: scale(1.1);
+}
+.appstore{
+    transition: all 0.3s ease;
+    opacity: 0.9;
+}
+.appstore:hover{
+    opacity: 1;
+    transform: scale(1.05);
+    /* box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1); */
+}
+
+
+.feacture_card {
+    /* transition: all 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94); */
+    border-radius: 12px;
+    position: relative;
+    overflow: hidden;
+}
+
+.feacture_card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 3px;
+    background: linear-gradient(to right, transparent, #7C3AED, transparent);
+    transition: all 0.4s ease;  
+}
+
+.feacture_card:hover::before {
+    left: 0;
+}
+
+.feacture_card:hover {
+    /* background-color: #ffffff; */
+    transform: translateY(-1px);
+    box-shadow: 0 15px 30px rgba(91, 2, 244, 0.1);
+}
+
+.feacture_card:hover h3 {
+    color: #7C3AED;
+    transition: color 0.3s ease;
+}
+
+.feacture_card img {
+    transition: transform 0.4s ease;
+}
+/* 
+.feacture_card:hover img {
+    transform: rotate(360deg) scale(1.05);
+}
+
+.feacture_card p {
+    transition: opacity 0.3s ease;
+} */
+
+.feacture_card:hover p {
+    opacity: 0.9;
+}
+
+
+
+/* ==================================================================================== */
+
+
+/* Subtle Scroll Animation for Sections */
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+#hero{
+    animation: fadeInUp 1s ease-out;
+}
+/* ========================================== */
+
+
+
+
