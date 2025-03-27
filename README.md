@@ -28,7 +28,7 @@ A responsive landing page for a project management application, designed with Bo
 ### Installation
 1. Clone the repository
 ```bash
-git clone https://github.com/[YOUR-USERNAME]/landify-project-management-landing-page.git
+git clone https://github.com/[Vishal5051]/landify-project-management-landing-page.git
 ```
 2. Open `index.html` in your web browser
 
