@@ -32,14 +32,6 @@ git clone https://github.com/[Vishal5051]/landify-project-management-landing-pag
 ```
 2. Open `index.html` in your web browser
 
-## Screenshots
-[You can add screenshots of your website here later]
-
-## Deployment
-Deployed using GitHub Pages: [Add your GitHub Pages URL when deployed]
-
-## License
-This project is open source and available under the [MIT License](LICENSE).
 
 ## Contact
 [Vishal Chandora] - [Vkc335524@gmail.com]
