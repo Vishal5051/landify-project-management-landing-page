@@ -42,5 +42,5 @@ Deployed using GitHub Pages: [Add your GitHub Pages URL when deployed]
 This project is open source and available under the [MIT License](LICENSE).
 
 ## Contact
-[Your Name] - [Your Email]
-Project Link: https://github.com/[YOUR-USERNAME]/landify-project-management-landing-page
+[Vishal Chandora] - [Vkc335524@gmail.com]
+Project Link: https://github.com/[Vishal5051]/landify-project-management-landing-page
